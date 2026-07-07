@@ -1,0 +1,107 @@
+.contact {
+  padding: 32px 24px 120px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.contact__title {
+  text-align: center;
+  font-size: 15px;
+  font-family: var(--sans);
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.contact__intro {
+  text-align: center;
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text);
+  max-width: 480px;
+  margin: 0 auto 48px;
+}
+
+.contact__success {
+  text-align: center;
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--text-h);
+  padding: 24px 0;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact__field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: var(--sans);
+  font-size: 13.5px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.contact__field input,
+.contact__field textarea {
+  font-family: var(--sans);
+  font-size: 16px;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--text-h);
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 12px 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.contact__field input:focus,
+.contact__field textarea:focus {
+  border-color: var(--text-muted);
+}
+
+.contact__field textarea {
+  resize: vertical;
+}
+
+.contact__submit {
+  align-self: center;
+  margin-top: 8px;
+  padding: 14px 40px;
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--text-h);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.contact__submit:hover {
+  opacity: 0.85;
+}

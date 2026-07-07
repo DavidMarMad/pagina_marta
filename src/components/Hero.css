@@ -1,0 +1,67 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 32px;
+  padding: 96px 24px 72px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.hero__portrait {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero__portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__portrait-icon {
+  width: 64px;
+  height: 64px;
+  color: var(--text-muted);
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero__name {
+  font-size: 44px;
+  @media (max-width: 1024px) {
+    font-size: 32px;
+  }
+}
+
+.hero__specialty {
+  font-family: var(--sans);
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.hero__quote {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 22px;
+  line-height: 1.5;
+  color: var(--text-h);
+  margin-top: 8px;
+  @media (max-width: 1024px) {
+    font-size: 18px;
+  }
+}

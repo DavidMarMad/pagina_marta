@@ -1,0 +1,74 @@
+:root {
+  --bg: #ffffff;
+  --bg-alt: #f7f6f3;
+  --text: #4a4a47;
+  --text-h: #1c1c1a;
+  --text-muted: #8a8478;
+  --border: #e6e4de;
+  --shadow: rgba(0, 0, 0, 0.06) 0 8px 24px -8px;
+
+  --serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --sans: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  font: 18px/1.6 var(--sans);
+  letter-spacing: 0.1px;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--serif);
+  font-weight: 500;
+  color: var(--text-h);
+  margin: 0;
+}
+
+h1 {
+  font-size: 52px;
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+  @media (max-width: 1024px) {
+    font-size: 34px;
+  }
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  @media (max-width: 1024px) {
+    font-size: 24px;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
