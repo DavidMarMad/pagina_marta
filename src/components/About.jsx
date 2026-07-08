@@ -1,4 +1,5 @@
 import { GraduationCap, Stethoscope, Globe } from 'lucide-react'
+import ArtMotif from './ArtMotif.jsx'
 import './About.css'
 
 // TODO: sustituir por credenciales reales de la Dra. Bedmar
@@ -11,6 +12,8 @@ const credentials = [
 function About() {
   return (
     <section className="about">
+      <ArtMotif variant="casitas" />
+      <ArtMotif variant="figura" />
       <h2 className="about__title">Sobre la Dra. Bedmar</h2>
 
       <div className="about__bio">

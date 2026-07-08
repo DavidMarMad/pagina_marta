@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
+import ArtMotif from './ArtMotif.jsx'
 import './GeneralCatalog.css'
 
 // TODO: sustituir por el listado real de temas de la Dra. Bedmar
@@ -40,6 +41,8 @@ function GeneralCatalog() {
 
   return (
     <section className="general-catalog">
+      <ArtMotif variant="gafas" />
+      <ArtMotif variant="cerezas" />
       <h2 className="general-catalog__title">Otros Temas de Conferencia</h2>
 
       <div className="general-catalog__list">

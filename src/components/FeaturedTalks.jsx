@@ -1,4 +1,5 @@
 import { Brain, Sparkles } from 'lucide-react'
+import ArtMotif from './ArtMotif.jsx'
 import './FeaturedTalks.css'
 
 const talks = [
@@ -19,6 +20,8 @@ const talks = [
 function FeaturedTalks() {
   return (
     <section className="featured-talks">
+      <ArtMotif variant="cuadricula" />
+      <ArtMotif variant="isla" />
       <h2 className="featured-talks__title">Conferencias Destacadas</h2>
 
       <div className="featured-talks__grid">

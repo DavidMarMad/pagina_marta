@@ -1,10 +1,10 @@
 :root {
-  --bg: #ffffff;
-  --bg-alt: #f7f6f3;
+  --bg: #e2dbd0;
+  --bg-alt: #efece3;
   --text: #4a4a47;
   --text-h: #1c1c1a;
-  --text-muted: #8a8478;
-  --border: #e6e4de;
+  --text-muted: #6f685c;
+  --border: #e2ded2;
   --shadow: rgba(0, 0, 0, 0.06) 0 8px 24px -8px;
 
   --serif: 'Playfair Display', Georgia, 'Times New Roman', serif;

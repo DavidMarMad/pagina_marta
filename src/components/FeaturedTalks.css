@@ -1,4 +1,6 @@
 .featured-talks {
+  position: relative;
+  overflow: hidden;
   padding: 64px 24px 96px;
   max-width: 1040px;
   margin: 0 auto;
