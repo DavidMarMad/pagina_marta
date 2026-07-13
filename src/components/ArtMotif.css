@@ -1,5 +1,8 @@
 .art-motif {
   position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   pointer-events: none;
   z-index: -1;
   background-repeat: no-repeat;
@@ -8,54 +11,59 @@
   filter: grayscale(1) sepia(0.15) contrast(0.9);
 }
 
-.art-motif--gafas {
-  width: 210px;
-  height: 175px;
-  opacity: 0.12;
-  top: -30px;
-  left: -40px;
-}
-
-.art-motif--casitas {
-  width: 320px;
-  height: 186px;
+/* Hero: un único motivo, cubre toda la sección centrado */
+.art-motif--cerezasHero {
   opacity: 0.1;
-  bottom: -30px;
-  right: -50px;
+  background-size: 90%;
+  background-position: center;
 }
 
-.art-motif--cuadricula {
-  width: 240px;
-  height: 334px;
-  opacity: 0.08;
-  top: -20px;
-  right: -70px;
-  filter: grayscale(1) sepia(0.1) contrast(0.85) blur(0.3px);
+/* About: dos motivos repartidos arriba/abajo para no fundirse */
+.art-motif--casitas {
+  opacity: 0.12;
+  background-size: 65%;
+  background-position: center bottom;
 }
 
 .art-motif--figura {
-  width: 260px;
-  height: 286px;
-  opacity: 0.09;
-  top: -30px;
-  left: -80px;
+  opacity: 0.11;
+  background-size: 65%;
+  background-position: center top;
 }
 
-.art-motif--cerezas {
-  width: 190px;
-  height: 148px;
+/* FeaturedTalks: dos motivos repartidos arriba/abajo */
+.art-motif--cuadricula {
   opacity: 0.1;
-  bottom: -20px;
-  right: -30px;
-  transform: rotate(8deg);
+  background-size: 65%;
+  background-position: center top;
+  filter: grayscale(1) sepia(0.1) contrast(0.85) blur(0.3px);
 }
 
 .art-motif--isla {
-  width: 280px;
-  height: 225px;
-  opacity: 0.08;
-  bottom: -20px;
-  left: -60px;
+  opacity: 0.1;
+  background-size: 65%;
+  background-position: center bottom;
+}
+
+/* GeneralCatalog: dos motivos repartidos arriba/abajo */
+.art-motif--gafas {
+  opacity: 0.14;
+  background-size: 65%;
+  background-position: center top;
+}
+
+.art-motif--cerezas {
+  opacity: 0.12;
+  background-size: 65%;
+  background-position: center bottom;
+  transform: rotate(8deg);
+}
+
+/* Contact: reutiliza gafas dos veces, izquierda/derecha */
+.art-motif--gafasContact {
+  opacity: 0.11;
+  background-size: 60%;
+  background-position: center;
 }
 
 @media (max-width: 768px) {
@@ -63,7 +71,8 @@
   .art-motif--figura,
   .art-motif--cuadricula,
   .art-motif--cerezas,
-  .art-motif--isla {
+  .art-motif--isla,
+  .art-motif--gafasContact {
     display: none;
   }
 }

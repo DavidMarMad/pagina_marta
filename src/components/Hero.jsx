@@ -1,9 +1,11 @@
 import { UserRound } from 'lucide-react'
+import ArtMotif from './ArtMotif.jsx'
 import './Hero.css'
 
 function Hero() {
   return (
     <section className="hero">
+      <ArtMotif variant="cerezasHero" />
       <div className="hero__portrait">
         {/* TODO: reemplazar por foto real de la Dra. Bedmar */}
         <UserRound className="hero__portrait-icon" strokeWidth={1} />

@@ -6,7 +6,16 @@ import cerezas from '../assets/art/cerezas.png'
 import isla from '../assets/art/isla.png'
 import './ArtMotif.css'
 
-const images = { gafas, casitas, cuadricula, figura, cerezas, isla }
+const images = {
+  gafas,
+  casitas,
+  cuadricula,
+  figura,
+  cerezas,
+  isla,
+  cerezasHero: cerezas,
+  gafasContact: gafas,
+}
 
 function ArtMotif({ variant, className = '' }) {
   return (
