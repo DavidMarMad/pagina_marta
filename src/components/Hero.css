@@ -29,12 +29,6 @@
   object-fit: cover;
 }
 
-.hero__portrait-icon {
-  width: 64px;
-  height: 64px;
-  color: var(--text-muted);
-}
-
 .hero__content {
   display: flex;
   flex-direction: column;

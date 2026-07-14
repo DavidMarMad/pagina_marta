@@ -2,11 +2,11 @@ import { GraduationCap, Stethoscope, Globe } from 'lucide-react'
 import ArtMotif from './ArtMotif.jsx'
 import './About.css'
 
-// TODO: sustituir por credenciales reales de la Dra. Bedmar
+
 const credentials = [
-  { icon: GraduationCap, label: 'Doctora en Medicina y Cirugía' },
-  { icon: Stethoscope, label: 'Especialista en Psiquiatría' },
-  { icon: Globe, label: 'Conferenciante en más de 20 países' },
+  { icon: GraduationCap, label: 'Profesora asociada psiquiatría UIB' },
+  { icon: Stethoscope, label: 'Psiquiatra HUSE' },
+  { icon: Globe, label: 'Conferenciante especializada en niños y jovenes' },
 ]
 
 function About() {
