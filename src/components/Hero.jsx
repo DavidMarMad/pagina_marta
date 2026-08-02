@@ -11,12 +11,13 @@ function Hero() {
       </div>
 
       <div className="hero__content">
-        <h1 className="hero__name">Dra. Marta Bedmar Noguerol</h1>
+        <h1 className="hero__name">Dra Marta Bedmar Noguerol. PhD</h1>
         <p className="hero__specialty">
-          Psiquiatra · Conferenciante internacional · Consultora de salud mental
+          Psiquiatra. Psiquiatra infantojuvenil. Profesora y divulgadora.
         </p>
         <p className="hero__quote">
-          &ldquo;El impacto del entorno digital en la salud mental de los jóvenes&rdquo;
+          &ldquo;La infancia es para siempre. Cuidémosla&rdquo;
+          <br />- Marta Bedmar Noguerol.
         </p>
       </div>
     </section>

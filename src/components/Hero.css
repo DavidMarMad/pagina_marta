@@ -12,20 +12,25 @@
 }
 
 .hero__portrait {
-  width: 168px;
-  height: 168px;
+  position: relative;
+  width: 336px;
+  height: 336px;
   border-radius: 50%;
-  background: var(--bg-alt);
+  background: #fff;
   border: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
+  @media (max-width: 480px) {
+    width: 240px;
+    height: 240px;
+  }
 }
 
 .hero__portrait img {
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  width: 108%;
+  height: 108%;
+  left: -15%;
+  top: -3%;
   object-fit: cover;
 }
 

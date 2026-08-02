@@ -4,9 +4,9 @@ import './About.css'
 
 
 const credentials = [
-  { icon: GraduationCap, label: 'Profesora asociada psiquiatría UIB' },
-  { icon: Stethoscope, label: 'Psiquiatra HUSE' },
-  { icon: Globe, label: 'Conferenciante especializada en niños y jovenes' },
+  { icon: Stethoscope, label: 'Psiquiatra infantojuvenil · Hospital Son Espases (2006–actualidad)' },
+  { icon: GraduationCap, label: 'Profesora asociada de Psiquiatría · UIB' },
+  { icon: Globe, label: 'Divulgadora: prensa, TV y talleres escolares' },
 ]
 
 function About() {
@@ -17,22 +17,11 @@ function About() {
       <h2 className="about__title">Sobre la Dra. Bedmar</h2>
 
       <div className="about__bio">
-        {/* TODO: sustituir por biografía real de la Dra. Bedmar */}
         <p>
-          La Dra. Marta Bedmar Noguerol lleva más de quince años ejerciendo la
-          psiquiatría clínica, un recorrido que ha combinado con la
-          investigación aplicada y la divulgación ante audiencias directivas
-          de todo el mundo. Su trabajo parte de una convicción sencilla: el
-          bienestar mental no es un lujo corporativo, es la base sobre la que
-          se sostiene cualquier organización de alto rendimiento.
-        </p>
-        <p>
-          A lo largo de su carrera ha acompañado a equipos directivos,
-          deportistas de élite e instituciones sanitarias en procesos de
-          cambio profundo, siempre desde una mirada clínica rigurosa y un
-          lenguaje cercano, alejado del tecnicismo. Hoy dedica su tiempo a
-          conferencias, consultoría estratégica y formación en salud mental
-          aplicada al liderazgo.
+          Estudié medicina por curiosidad y elegí psiquiatría por candorosa
+          vocación. Aprendo y disfruto cada día de mis pacientes, pero
+          prefiero llegar antes y más lejos, así que comparto lo que sé,
+          insto a pensar, y organizo cursos que incitan al cambio.
         </p>
       </div>
 
