@@ -31,6 +31,9 @@
 
 body {
   margin: 0;
+  background:
+    linear-gradient(rgba(226, 219, 208, 0.55), rgba(226, 219, 208, 0.55)),
+    url('./assets/art/fondo-collage.png') center top / 100% auto repeat-y scroll;
 }
 
 #root {

@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import ArtMotif from './ArtMotif.jsx'
 import './Contact.css'
 
 const initialForm = {
@@ -28,7 +27,6 @@ function Contact() {
   if (submitted) {
     return (
       <section className="contact">
-        <ArtMotif variant="gafasContact" />
         <h2 className="contact__title">Contacto</h2>
         <p className="contact__success">
           Gracias, {form.name.split(' ')[0] || ''}. Hemos recibido su
@@ -40,11 +38,14 @@ function Contact() {
 
   return (
     <section className="contact">
-      <ArtMotif variant="gafasContact" />
       <h2 className="contact__title">Contacto</h2>
       <p className="contact__intro">
         Para consultas sobre conferencias, colaboraciones o disponibilidad,
-        complete el siguiente formulario.
+        complete el siguiente formulario o escriba directamente a{' '}
+        <a className="contact__email" href="mailto:martabedmarnoguerol@gmail.com">
+          martabedmarnoguerol@gmail.com
+        </a>
+        .
       </p>
 
       <form className="contact__form" onSubmit={handleSubmit}>
