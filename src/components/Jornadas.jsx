@@ -1,4 +1,5 @@
 import ContentBlock from './ContentBlock.jsx'
+import jornadasPhoto from '../assets/photos/jornadas.jpg'
 
 const years = ['2017', '2018', '2019', '2020', '2025', '2026', '2027']
 
@@ -7,7 +8,8 @@ function Jornadas() {
     <ContentBlock
       id="jornadas"
       title="Organización de Jornadas y Colaboraciones"
-      imageAlt="Foto pendiente"
+      image={jornadasPhoto}
+      imageAlt="Dra. Marta Bedmar Noguerol en el programa 5 dies de IB3"
       imagePosition="left"
     >
       <p>

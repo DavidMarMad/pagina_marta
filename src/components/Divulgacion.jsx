@@ -1,11 +1,13 @@
 import ContentBlock from './ContentBlock.jsx'
+import divulgacionPhoto from '../assets/photos/divulgacion.jpg'
 
 function Divulgacion() {
   return (
     <ContentBlock
       id="divulgacion"
       title="Experiencia Divulgadora"
-      imageAlt="Foto pendiente"
+      image={divulgacionPhoto}
+      imageAlt="Dra. Marta Bedmar Noguerol impartiendo una charla"
       imagePosition="right"
     >
       <ul>

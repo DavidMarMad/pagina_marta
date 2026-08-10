@@ -15,7 +15,13 @@ function ContentBlock({
   motifs = [],
   children,
 }) {
-  const [isOpen, setIsOpen] = useState(defaultOpen || alwaysOpen)
+  const [isOpen, setIsOpen] = useState(() => {
+    if (alwaysOpen) return true
+    if (typeof window !== 'undefined' && window.matchMedia('(min-width: 769px)').matches) {
+      return true
+    }
+    return defaultOpen
+  })
 
   return (
     <section

@@ -1,4 +1,5 @@
 import ContentBlock from './ContentBlock.jsx'
+import curriculumPhoto from '../assets/photos/curriculum.jpg'
 
 const items = [
   'Licenciada en Medicina y Cirugía en una de las dos ciudades más hermosas del mundo, Granada.',
@@ -23,7 +24,8 @@ function Curriculum() {
     <ContentBlock
       id="curriculum"
       title="Currículum Académico"
-      imageAlt="Foto pendiente"
+      image={curriculumPhoto}
+      imageAlt="Dra. Marta Bedmar Noguerol en la defensa de su tesis doctoral"
       imagePosition="left"
     >
       <ul>

@@ -186,6 +186,31 @@
   }
 }
 
+#curriculum .content-block__media img,
+#divulgacion .content-block__media img,
+#temas .content-block__media img,
+#jornadas .content-block__media img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+#curriculum .content-block__media img {
+  object-position: center 28%;
+}
+
+#divulgacion .content-block__media img {
+  object-position: 38% 35%;
+}
+
+#temas .content-block__media img {
+  object-position: 55% 25%;
+}
+
+#jornadas .content-block__media img {
+  object-position: 15% 35%;
+}
+
 @media (max-width: 768px) {
   .content-block {
     max-width: none;

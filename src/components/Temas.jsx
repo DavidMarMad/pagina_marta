@@ -1,11 +1,13 @@
 import ContentBlock from './ContentBlock.jsx'
+import temasPhoto from '../assets/photos/temas.jpg'
 
 function Temas() {
   return (
     <ContentBlock
       id="temas"
       title="Mis Temas Preferidos"
-      imageAlt="Foto pendiente"
+      image={temasPhoto}
+      imageAlt="Dra. Marta Bedmar Noguerol"
       imagePosition="right"
     >
       <ul>
